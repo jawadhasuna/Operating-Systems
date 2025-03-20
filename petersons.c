@@ -9,7 +9,7 @@ do
 {
 flag[0]=1;
 turn=1;
-while(flag[1] && turn==0)
+while(flag[1] && turn==1)
 {
 //busyloop
 }
@@ -23,7 +23,7 @@ do
 {
 flag[1]=1;
 turn=0;
-while(flag[0] && turn==1)
+while(flag[0] && turn==0)
 {
 //busyloop
 }
