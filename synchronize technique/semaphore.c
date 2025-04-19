@@ -4,7 +4,7 @@
 void* p0(void* arg)
 {
 do{
-while(s);
+wait(s);
 //cs
 signal(s);
 }while(1);
@@ -12,7 +12,7 @@ signal(s);
 void* p1(void* arg)
 {
 do{
-while(s)
+wait(s)
 //cs
 signal(s);
 }while(1);
