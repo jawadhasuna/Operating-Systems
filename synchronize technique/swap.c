@@ -2,9 +2,9 @@
  bool lock=false;
 void swap(bool* a,bool* b)
 {
-bool* tmp = *a;
+bool tmp = *a;
 *a=*b;
-*b=*tmp;
+*b=tmp;
 }
 void* p0(void* arg)
 {bool key;
